@@ -11,5 +11,9 @@
 4. 똑같이 3번적고 다음 커널로 넘어가시면 됩니다.
 
 # 1. Binary classification: Tabular data
+- 1st level. Titanic
 [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
-1. [EDA To Prediction(DieTanic)](https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook) - 2022.04.01
+1. [EDA To Prediction(DieTanic)](https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic/notebook)
+2. [Titanic Top 4% with ensemble modeling](https://www.kaggle.com/code/yassineghouzam/titanic-top-4-with-ensemble-modeling/notebook)
+- 2nd level. Porto
+3. [Data Preparation & Exploration](https://www.kaggle.com/code/bertcarremans/data-preparation-exploration/notebook)
