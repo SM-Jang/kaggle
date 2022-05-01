@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import pytorch_model_summary
 from torch.utils.data import TensorDataset, DataLoader
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
@@ -148,6 +149,8 @@ if __name__ == '__main__':
     
     # model & loss & optimize
     model = CNN().to(device)
+    print(pytorch_model_summary.summary(model, torch.zeros(1, 3, 75, 75).to(device), show_input=True))
+    
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
     
